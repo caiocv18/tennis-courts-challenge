@@ -1,8 +1,10 @@
 package com.tenniscourts;
 
+import com.tenniscourts.guests.Guest;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.web.bind.annotation.GetMapping;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
